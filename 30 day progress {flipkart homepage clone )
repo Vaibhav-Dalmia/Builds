@@ -1,0 +1,269 @@
+css - 
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(244, 244, 248);
+    border: solid rgb(8, 7, 7);
+
+    height: 5vh;
+
+}
+
+header nav ul li {
+    text-transform: capitalize;
+    font: bolder;
+    font-size: larger;
+    display: inline;
+    position: relative;
+    bottom: 64px;
+    right: 10px;
+    padding-right: 100px;
+    left: 1100px;
+
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+
+}
+
+.logo {
+    background-color: rgb(248, 246, 246);
+    height: 5vh;
+    width: 25vw;
+
+}
+
+.logo img {
+    width: 10vw;
+    height: 5vh;
+    position: relative;
+    left: 10vw;
+}
+
+.searchbar {
+    display: flex;
+    position: relative;
+    bottom: 37px;
+    left: 400px;
+    height: 3vh;
+    width: 40vw;
+    font: bolder;
+
+}
+
+.container1 {
+    background-color: rgb(255, 255, 255);
+    width: 98vw;
+    height: 15vh;
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+}
+
+.container1 ul li {
+    font: bolder;
+    font-size: larger;
+    display: inline;
+    margin-right: 4vw;
+    position: relative;
+    left: 4vw;
+    top: 5vh;
+    text-transform: capitalize;
+}
+
+.container1 ul li img {
+    position: relative;
+    bottom: 4vh;
+    left: 4vw;
+}
+
+@keyframes slide {
+    0% {transform: translateX(0vw);}
+    13% {transform: translateX(0vw);}
+    16% {transform: translateX(-100vw);}
+    29% {transform: translateX(-100vw);}
+    33% {transform: translateX(-200vw);}
+    46% {transform: translateX(-200vw);}
+    50% {transform: translateX(-300vw);}
+    63% {transform: translateX(-300vw);}
+    66% {transform: translateX(-400vw);}
+    79% {transform: translateX(-400vw);} 
+    83% {transform: translateX(-500vw);}
+    96% {transform: translateX(-500vw);}
+    100% {transform: translateX(0vw);}
+}
+.slider {
+    width: 99vw;
+    height: 35vh;
+    background-color: aliceblue;
+    position: relative;
+    top: 2vh;
+    overflow: hidden;
+}
+.slides {
+    animation: slide 36s ease-in-out infinite;
+    display: flex;
+    width: calc(100vw * 6)
+}
+
+.slides img {
+    width: 100vw;
+    height: 30vh;
+    display: block;
+    object-fit: cover;
+    flex-shrink: 0;
+    position: relative;
+    top: 2vh;
+}
+
+.container2 {
+    background-color: rgb(255, 255, 255);
+    width: 98vw;
+    height: 31vh;
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+
+}
+
+.container2 ul li {
+    font: bolder;
+    font-size: larger;
+    display: inline;
+    margin-right: 4vw;
+    position: relative;
+    left: 2vw;
+    top: 10vh;
+    right: 20vw;
+    text-transform: capitalize;
+}
+
+.container2 ul li img {
+    position: relative;
+    bottom: 6vh;
+    left: 6vw;
+}
+
+.flightlogo {
+    background-color: brown;
+    width: 13vw;
+    height: 32vh;
+    position: relative;
+    bottom: 18vh;
+    left: 82vw;
+}
+
+.flightlogo img {
+    width: 13vw;
+    height: 32vh;
+}
+footer {
+    color: rgb(21, 23, 26);
+    text-transform: capitalize;
+    height: 5vh;
+    background-color: rgb(232, 232, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: bolder;
+    font-size: larger;
+    border: solid black;
+    position: relative;
+}
+
+
+
+
+HTML- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo"> <img
+        src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
+        alt="car logo"></div>
+
+    <nav>
+      <input type="text" placeholder="search...." class="searchbar">
+      <ul>
+        <li><a href="">login</a></li>
+        <li><a href="">cart</a></li>
+        <li><a href="">become seller</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="container1">
+      <ul>
+        <li><img src="https://rukminim2.flixcart.com/flap/64/64/image/29327f40e9c4d26b.png?q=100" alt="kilos">kilos</li>
+        <li><img src="https://rukminim2.flixcart.com/flap/64/64/image/22fddf3c7da4c4f4.png?q=100" alt="mobiles">mobiles
+        </li>
+        <li><img src="" alt="">fashion</li>
+        <li><img src="" alt="">eletronics</li>
+        <li><img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/0139228b2f7eb413.jpg?q=100"
+            alt="appliances">appliances</li>
+        <li><img src="https://rukminim2.flixcart.com/flap/64/64/image/71050627a56b4693.png?q=100"
+            alt="flight booking">flight booking</li>
+        <li><img src="" alt="">beauty,toys&more</li>
+        <li><img src="" alt="">two wheelers</li>
+      </ul>
+    </div>
+    <div class="slider">
+      <div class="slides">
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/508ba0b3ad8dd4ae.jpg?q=20" alt="slide1">
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/74f0ad81e44e6e6f.jpg?q=20" alt="slide2">
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/11980ec333f6aa03.jpg?q=20" alt="slide3">
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/1bd9f11edbf77427.jpg?q=20" alt="slide4">
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/076c4f2ee87225d7.jpg?q=20" alt="slide5">
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/2b436dcb807a35db.jpeg?q=20" alt="slide6">
+      </div>
+    </div>
+    <br>
+    <div class="container2">
+      <ul>
+
+        <li><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-ethnic-set/t/l/e/6-9-months-mmm22-a-mustmom-original-imahbhnuksmhgbhk.jpeg?q=70"
+            alt="clothes" style="width: 10vw;">kids clothes</li>
+        <li><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/3/i/r/m-wuts2619f-wrogn-original-imahbyru3vrcfxea.jpeg?q=70"
+            alt="USPA" style="width: 7vw;">USPA</li>
+        <li><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/night-suit/j/v/3/s-nightsuits-combraided-original-imah7swaz9jhrpfw.jpeg?q=70"
+            alt="steals" style="width: 7vw;">hottest steals</li>
+        <li><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/z/z/k/5-fb-1229bk-5-nivia-multicolor-original-imah4mbztgeqrqhg.jpeg?q=70"
+            alt="puma" style="width: 8vw;">puma,addidas</li>
+      </ul>
+      <div class="flightlogo"><img
+          src="https://rukminim2.flixcart.com/fk-p-flap/530/810/image/d9a8d441cd413d17.jpg?q=20" alt="planelogo"></div>
+    </div>
+  </main>
+  <br><br>
+  <footer>
+    <p> copyright &copy;flipkart</vaibhavsite>
+    </p>
+  </footer>
+
+
+</body>
+
+</html>
