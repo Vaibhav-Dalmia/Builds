@@ -1,0 +1,687 @@
+H  T  M  L   -----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header></header>
+  <main>
+    <div class="containers">
+      <div class="slider">
+      <div class="slides">
+      
+        <li><img src="https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&w=600" alt="s1"></li>
+        <li><img src="https://images.pexels.com/photos/9609839/pexels-photo-9609839.jpeg?auto=compress&cs=tinysrgb&w=600" alt="s2"></li>
+        <li><img src="https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=600" alt="s3"></li>
+        <li><img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="s4"></li>
+      
+      </div>
+      </div>
+      <div class="logo"><img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="logo"></div>
+      <div class="info1">
+        <p>India’s #1 food delivery app</p>
+        <div class="ps"><img src="https://b.zmtcdn.com/data/o2_assets/aad864bd17860b27634fe621001c32db1739350431.png" alt="playstore"></div>
+        <div class="as"><img src="https://b.zmtcdn.com/data/o2_assets/df6464de32f4a09262cee301f65aaa661739351256.png" alt="appstore"></div>
+
+      </div>
+    </div>
+    <div class="container2">
+      <div class="text1">Better food for <br> more people ;</div>
+      <div class="text2">For over a decade, we’ve enabled our <br>customers to discover new tastes,<br>delivered right to their doorstep</div>
+      <div class="lines1"><img src="https://b.zmtcdn.com/data/o2_assets/901001826baf04838b1bf505176ff0b11742453501.png" alt="l1"></div>
+      <div class="lines2"><img src="https://b.zmtcdn.com/data/o2_assets/901001826baf04838b1bf505176ff0b11742453501.png" alt="l2"></div>
+      <div class="burger"><img src="https://b.zmtcdn.com/data/o2_assets/110a09a9d81f0e5305041c1b507d0f391743058910.png" alt="b"></div>
+      <div class="tomatoleft"><img src="https://b.zmtcdn.com/data/o2_assets/9ef1cc6ecf1d92798507ffad71e9492d1742892584.png" alt="tl"></div>
+      <div class="tomatoright"><img src="https://b.zmtcdn.com/data/o2_assets/9ef1cc6ecf1d92798507ffad71e9492d1742892584.png" alt="t2"></div>
+      <div class="pizza"><img src="https://b.zmtcdn.com/data/o2_assets/316495f4ba2a9c9d9aa97fed9fe61cf71743059024.png" alt="p1"></div>
+      <div class="momos"><img src="https://b.zmtcdn.com/data/o2_assets/b4f62434088b0ddfa9b370991f58ca601743060218.png" alt="m"></div>
+      <div class="leaf"><img src="https://b.zmtcdn.com/data/o2_assets/70b50e1a48a82437bfa2bed925b862701742892555.png" alt="l"></div>
+      <div class="res">3,00,000+ <br> restaurants <img src="https://b.zmtcdn.com/data/o2_assets/d19ec60986487a77bcb026e5efc3325f1742908200.png" alt=""></div>
+      <div class="city">800+ <br> cities <img src="https://b.zmtcdn.com/data/o2_assets/e7533c4081d6140da37b9f430cb7b8051743006192.png" alt=""></div>
+      <div class="order">3 billion+ <br> orders delivered <img src="https://b.zmtcdn.com/data/o2_assets/713443cc5944ce4284d7e49e75e2aacf1742466222.png" alt=""></div>
+    </div>
+    <div class="container3">
+      <div class="phone"> <img src="https://b.zmtcdn.com/data/o2_assets/3f7e2757e62fd22592b879bd56b666011742294630.png" alt="phone"></div>
+      <div class="scedule"><img src="https://b.zmtcdn.com/data/o2_assets/cc1caf220c91be38dd94cce12b416fcd1746550226.png" alt="scedule"></div>
+      <div class="text3">What’s waiting for you <br>on the app?</div>
+      <div class="text4">Our app is packed with features that <br> enable you to experience food <br> delivery like never before</div>
+      <div class="healthy"><img src="https://b.zmtcdn.com/data/o2_assets/d0f1639403f80f8f2c19e0d538222e661742455804.png" alt=""><p>healthy</p></div>
+      <div class="veg"><img src="https://b.zmtcdn.com/data/o2_assets/82f145180cd6f920a8a8617dda366a0a1742455963.png" alt=""><p>veg mode</p></div>
+      <div class="party"><img src="https://b.zmtcdn.com/data/o2_assets/5e7aab0f183b36fc12c29279f0cb55181742462245.png" alt=""><p>party</p></div>
+      <div class="cards"><img src="https://b.zmtcdn.com/data/o2_assets/867f86a10503998e437963bb37c451591742455764.png" alt=""><p>gift cards</p></div>
+      <div class="gourmet"><img src="https://b.zmtcdn.com/data/o2_assets/6e27c9acde6045c272a28e6eb275727e1742455789.png" alt=""><p>gourmet</p></div>
+      <div class="offers"><img src="https://b.zmtcdn.com/data/o2_assets/813952c961fd13588cb71867d84ea7dc1742455815.png" alt=""><p>offers</p></div>
+      <div class="food"><img src="https://b.zmtcdn.com/data/o2_assets/06d090307e02772693ac06123b53459b1742455939.png" alt=""><p>food on train</p></div>
+      <div class="collections"><img src="https://b.zmtcdn.com/data/o2_assets/5e973dd10c387878009c66d625ae541a1746550690.png" alt=""><p>collections</p></div>
+
+
+    </div>
+    <div class="container4">
+      <div class="minicontainer"></div>
+      
+      <div class="phoneqr"><img src="https://b.zmtcdn.com/data/o2_assets/3f7e2757e62fd22592b879bd56b666011742294630.png" alt=""> </div>
+      <div class="qr"><img src="https://b.zmtcdn.com/data/o2_assets/98cc4eba0a6f59e728e5223a70fd39551742471514.png" alt=""></div>
+      <div class="text6">scan qr code to <br> dowmload the app</div>
+      <div class="text5">Download the app now!</div>
+      
+      
+      <div class="text7">Experience seamless online ordering <br> only on the Zomato </div>
+      <div class="psas">
+        <img src="https://b.zmtcdn.com/data/o2_assets/aad864bd17860b27634fe621001c32db1739350431.png" alt=""> <br>
+        <img src="https://b.zmtcdn.com/data/o2_assets/df6464de32f4a09262cee301f65aaa661739351256.png" alt="">
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <div class="endlogo"><img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt=""></div>
+    <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners <br> 2008-2025 © Zomato™ Ltd. All rights reserved.</p>
+
+  </footer>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+CSS -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+body {
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    
+
+    
+    
+  
+  
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containers {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(38, 44, 44);
+
+
+
+
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0vw);
+    }
+
+    20% {
+        transform: translateX(0vw);
+    }
+
+    25% {
+        transform: translateX(-100vw);
+    }
+
+    45% {
+        transform: translateX(-100vw);
+    }
+
+    50% {
+        transform: translateX(-200vw);
+    }
+
+    70% {
+        transform: translateX(-200vw);
+    }
+
+    75% {
+        transform: translateX(-300vw);
+    }
+
+    95% {
+        transform: translateX(-300vw);
+    }
+
+    100% {
+        transform: translateX(0vw);
+    }
+}
+
+
+.slider {
+    width: 100vw;
+    height: 100vh;
+
+
+    position: relative;
+
+}
+
+.slides {
+    display: flex;
+    width: 400vw;
+    animation: slide 16s ease-in-out infinite;
+}
+
+.slides li {
+    display: inline;
+}
+
+.slides img {
+    width: 100vw;
+    height: 50vw;
+
+    flex-shrink: 0;
+}
+
+.info1 {
+    width: 99vw;
+    height: 12vh;
+    position: relative;
+    bottom: 35vh;
+    border: 5px solid white;
+    background-color: rgb(199, 32, 32);
+}
+
+.info1 p {
+    text-align: center;
+    position: relative;
+    top: 3vh;
+    font-size: 5vh;
+    font-family: "Roboto Condensed", sans-serif;
+
+    color: white;
+}
+
+.ps img {
+    width: 13vw;
+    position: relative;
+    bottom: 4vh;
+    left: 4vw;
+
+}
+
+.as img {
+    width: 13vw;
+    position: relative;
+    left: 81vw;
+    bottom: 11vh;
+
+}
+
+.logo {
+    position: relative;
+    left: 20vw;
+    bottom: 70vh;
+}
+
+.container2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+
+}
+
+.text1 {
+    color: rgb(233, 62, 62);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+
+    position: relative;
+    top: 33vh;
+    left: 40vw;
+    font-size: 5vh;
+    word-spacing: 2vh;
+
+}
+
+.text2 {
+    color: rgb(19, 6, 6);
+
+    position: relative;
+    top: 37vh;
+    left: 38vw;
+    font-size: 3vh;
+}
+
+.lines1 img {
+    width: 30vw;
+    height: 70vh;
+    position: relative;
+    bottom: 10vh;
+    right: 7vw;
+}
+
+.lines2 img {
+    width: 30vw;
+    height: 70vh;
+    position: relative;
+    bottom: 90vh;
+    left: 80vw;
+}
+
+.burger img {
+    width: 12vw;
+    height: 13vw;
+    position: relative;
+    bottom: 120vh;
+    left: 18vw;
+}
+
+.leaf img {
+    width: 4vw;
+    height: 3vw;
+    position: relative;
+    bottom: 250vh;
+    left: 30vw;
+}
+
+.tomatoleft img {
+    width: 4vw;
+    height: 3vw;
+    position: relative;
+    bottom: 110vh;
+    left: 15vw;
+}
+
+.momos img {
+    width: 18vw;
+    position: relative;
+    bottom: 220vh;
+    left: 65vw;
+}
+
+.pizza img {
+    width: 18vw;
+    position: relative;
+    bottom: 150vh;
+    left: 75vw;
+}
+
+.tomatoright img {
+    width: 4vw;
+    height: 3vw;
+    position: relative;
+    bottom: 160vh;
+    left: 90vw;
+}
+
+.res {
+    width: 20vw;
+    height: 15vh;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 185vh;
+    left: 22vw;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 3vh;
+    position: relative;
+    text-align: center;
+
+
+}
+
+.city {
+    width: 16vw;
+    height: 15vh;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 200vh;
+    left: 42vw;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 3vh;
+    text-align: center;
+
+
+}
+
+.order {
+    width: 20vw;
+    height: 15vh;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 215vh;
+    left: 58vw;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 3vh;
+    text-align: center;
+
+}
+
+.res img {
+    width: 7vw;
+    position: relative;
+
+    bottom: 1vh;
+
+
+
+
+}
+
+.city img {
+    width: 4vw;
+    position: relative;
+
+    bottom: 1vh;
+
+
+}
+
+.order img {
+    width: 6vw;
+    position: relative;
+    bottom: 1vh;
+}
+
+.container3 {
+    background-color: rgb(231, 218, 218);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 3vh;
+}
+.text3{
+    position: relative;
+    text-align: center;
+    
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 7vh;
+    word-spacing: 10px;
+    color: rgb(240, 67, 67);
+    bottom: 45vh;
+
+
+
+}
+.text4{
+    position: relative;
+    text-align: center;
+    bottom: 40vh ;
+    font-size: 3vh;
+    font-family: "Roboto Condensed", sans-serif;
+    
+}
+.phone img{
+    width: 20vw;
+    position: relative;
+    left: 41vw ;
+    top: 45vh;
+
+}
+.scedule img{
+    width: 15vw;
+    position: relative;
+    left: 44vw ;
+    top: 20vh;
+
+
+}
+.veg img{
+     width: 10vw;
+     position: relative;
+     left: 27vw;
+     bottom: 50vh;
+    
+
+
+}
+.healthy img{
+    width: 10vw;
+    position: relative;
+    left: 17vw;
+    bottom: 35vh;
+
+}
+.party img{
+     width: 10vw;
+     position: relative;
+     left: 27vw;
+     bottom: 44vh;
+
+}
+.cards img{
+     width: 10vw;
+     position: relative;
+     left: 17vw;
+     bottom: 59vh;
+
+}
+.gourmet img{
+     width: 10vw;
+     position: relative;
+     left: 65vw;
+     bottom: 90vh;
+
+}
+.offers img {
+     width: 10vw;
+     position: relative;
+     left: 75vw;
+     bottom: 105vh;
+
+}
+.food img{
+     width: 10vw;
+     position: relative;
+     left: 79vw;
+     bottom: 101vh;
+
+}
+.collections img{
+     width: 12vw;
+     position: relative;
+     left: 65vw;
+     bottom: 114vh;
+
+}
+.healthy p{
+    position: relative;
+    left: 20vw;
+    bottom: 35vh;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: capitalize;
+    font-size: larger;
+}
+.veg p{
+    position: relative;
+    left: 29vw;
+    bottom: 50vh;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: capitalize;
+    font-size: larger;
+
+}
+.party p{
+    position: relative;
+    left: 31vw;
+    bottom: 44vh;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: capitalize;
+    font-size: larger;
+
+}
+.cards p{
+    position: relative;
+    left: 20vw;
+    bottom: 58vh;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: capitalize;
+    font-size: larger;
+
+}
+.gourmet p{
+    position: relative;
+    left: 68vw;
+    bottom: 91vh;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: capitalize;
+    font-size: larger;
+
+}
+.offers p{
+    position: relative;
+    left: 78vw;
+    bottom: 104vh;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: capitalize;
+    font-size: larger;
+
+
+}
+.food p{
+    position: relative;
+    left: 80vw;
+    bottom: 99vh;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: capitalize;
+    font-size: larger;
+
+
+}
+.collections p{
+    position: relative;
+    left: 68vw;
+    bottom: 114vh;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: capitalize;
+    font-size: larger;
+
+
+}
+.container4{
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    top: 5vh;
+
+}
+.minicontainer{
+    width: 60vw;
+    height: 52vh;
+    background-color: rgb(248, 227, 224);
+    position: relative;
+    top: 20vh;
+    left: 20vw;
+    border: solid lightpink;
+}
+.phoneqr img{
+    width: 23vw;
+    position: relative;
+    left: 53vw;
+    bottom: 22vh;
+   
+}
+.qr img{
+    width: 13vw;
+    position: relative;
+    left: 58vw;
+    bottom: 56vh;
+
+}
+
+
+.text6 {
+    width: 13vw;
+    
+    position: relative;
+    font-family: "Roboto Condensed", sans-serif;
+    left: 61vw;
+    bottom: 53vh;
+    text-transform: capitalize;
+    word-spacing: 3px;
+    
+
+}
+.text5{
+    width: 13vw;
+    position: relative;
+    font-family: "Roboto Condensed", sans-serif;
+    left: 26vw;
+    bottom: 88vh;
+    text-transform: capitalize;
+    white-space: nowrap;
+    
+    font-size: 4vh;
+
+}
+.text7 {
+    width: 13vw;
+    position: relative;
+    font-family: "Roboto Condensed", sans-serif;
+    left: 26vw;
+    bottom: 85vh;
+    text-transform: capitalize;
+    
+    word-spacing: 3px;
+
+    white-space: nowrap; 
+    font-size: larger;
+
+
+}
+.psas img{
+    width: 10vw;
+    position: relative;
+    bottom: 78vh;
+    left: 30vw;
+
+}
+footer{
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(226, 0, 0);
+}
+.endlogo img{
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+    top: 9vh;
+    
+
+}
+footer p{
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgb(241, 241, 241);
+    position: relative;
+    left: 11vw;
+    top: 20vh;
+    
+    
+}
