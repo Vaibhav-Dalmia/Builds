@@ -1,0 +1,71 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class hello {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Random ra = new Random();
+        int round = 1;
+        int system_score = 0;
+        int your_score = 0;
+
+        while (round < 6) {
+            System.out.println("Round number " + round);
+
+            int rand = ra.nextInt(3) + 1; 
+            
+            if (rand == 1) {
+                System.out.println("Choose 1 for Rock, 2 for Paper and 3 for Scissors");
+                int ans = sc.nextInt();
+                System.out.println("System chose Rock");
+
+                if (ans == 2) {
+                    System.out.println("You win");
+                    your_score++;
+                } else if (ans == 1) {
+                    System.out.println("Tie");
+                } else {
+                    System.out.println("You lose");
+                    system_score++;
+                }
+
+            } else if (rand == 2) {
+                System.out.println("Choose 1 for Rock, 2 for Paper and 3 for Scissors");
+                int ans2 = sc.nextInt();
+                System.out.println("System chose Scissors");
+
+                if (ans2 == 1) {
+                    System.out.println("You win");
+                    your_score++;
+                } else if (ans2 == 3) {
+                    System.out.println("Tie");
+                } else {
+                    System.out.println("You lose");
+                    system_score++;
+                }
+
+            } else { 
+                System.out.println("Choose 1 for Rock, 2 for Paper and 3 for Scissors");
+                int ans3 = sc.nextInt();
+                System.out.println("System chose Paper");
+
+                if (ans3 == 3) {
+                    System.out.println("You win");
+                    your_score++;
+                } else if (ans3 == 2) {
+                    System.out.println("Tie");
+                } else {
+                    System.out.println("You lose");
+                    system_score++;
+                }
+            }
+
+            round++; 
+        }
+
+        System.out.println("Your score is " + your_score);
+        System.out.println("System score is " + system_score);
+        sc.close();
+    }
+}
